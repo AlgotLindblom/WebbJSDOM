@@ -23,18 +23,23 @@ img{
     flex-direction: row;
 }
 
-.header{
-    align-items: center;
-}
 
 .column{
     flex-direction: column;
 }
 
+/* Stylad header som ansvarar för att förflytta header div'en. */
+.header{
+    align-items: center;
+    text-align: center;
+    opacity: 90%;
+    background: grey;
+}
+
 /* Style för knappar */
 .button{
     display: inline-block;
-    padding: 1.5vh 2vw;
+    padding: 1.5vh 2vw; /* Responsiv padding och margin */
     margin: 2vh 2vw;
     font-size: 16px;
     text-align: center;
