@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/script_1.js"></script>
+    <title>DOM ALgot Lindblom</title>
+</head>
+<body>
+    <!-- header div separat för att förflyttas med javascript -->
+    <div class="flex column" id="Header-Div">
+        <h1>TEST HEADER</h1>
+        <p class="hidden" id="komplimang_text"></p>
+        <p class="hidden" id="time_text"></p>
+        <img src="resources/dice_one_img.png" alt="Image failed to load" id="img_1">
+    </div>
+
+    <!-- container för alla buttons -->
+    <div name="button_div_1" class="buttondiv flex row">
+        <div class="flex column">
+            <button class="button" onclick="change_bg()">Change BG</a>
+            <button class="button" onclick="show_compliment()">Good Vibes</a>
+            <button class="button" onclick="show_time()">Time</a>
+        </div>
+        <div class="flex column">
+            <button class="button" onclick="change_img()">Change Picture</a>
+            <button class="button" onclick="hide_img()">Hide Picture</a>
+            <button class="button" onclick="show_img()">Show Picture</a>
+        </div>
+        <div class="flex column">
+            <button class="button" onclick="make_header()">Header</a>
+            <button class="button" onclick="remove_header()">Remove Header</a>
+            <button class="button" onclick="show_header()">Show Header</a>
+        </div>
+    </div>
+</body>
+</html>

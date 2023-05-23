@@ -3,8 +3,8 @@ img{
 }
 
 /* Styla stora divs; främst för position */
-.headerdiv{
-
+.hidden{
+    display: none;
 }
 
 .buttondiv{
@@ -12,10 +12,6 @@ img{
     width: fit-content;
     height: fit-content;
     margin: 1vh auto 1vh auto;
-}
-
-.columndiv{
-
 }
 
 /* korta klasser för att styra vilken typ av flexbox en div är */
@@ -27,12 +23,16 @@ img{
     flex-direction: row;
 }
 
+.header{
+    align-items: center;
+}
+
 .column{
     flex-direction: column;
 }
 
 /* Style för knappar */
-.button {
+.button{
     display: inline-block;
     padding: 1.5vh 2vw;
     margin: 2vh 2vw;
@@ -44,14 +44,14 @@ img{
     border-radius: 5px;
     transition: background-color 0.3s ease;
     cursor: pointer;
-  }
+}
   
-  /* Ge feedback när användare pekar på en knapp */
-  .button:hover {
+/* Ge feedback när användare pekar på en knapp */
+.button:hover{
     background-color: #1c91ea;
-  }
+}
   
-  /* Ge återigen feedback när användare klickar */
-  .button:active {
+/* Ge återigen feedback när användare klickar */
+.button:active{
     background-color: #096e8a;
-  }
+}
