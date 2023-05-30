@@ -50,7 +50,7 @@ function change_img(){
         return
     }
     console.log("Attempts changing id='img_1' src to dice_six_img.png");
-    image.src = "../resources/dice_six_img.png";
+    image.src = "WebbJSDOM/resources/dice_six_img.png";
     console.log("Success, id='img_1' src changed to dice_six_img.png");
     return
 }
