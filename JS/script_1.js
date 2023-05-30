@@ -45,7 +45,7 @@ function change_img(){
     if (image.src.slice(-16) == "dice_six_img.png")
     {
         console.log("Attempts changing id='img_1' src to dice_one_img.png");
-        image.src = "resources/dice_one_img.png";
+        image.src = "dice_one_img.png";
         console.log("Success, id='img_1' src changed to dice_one_img.png");
         return
     }
